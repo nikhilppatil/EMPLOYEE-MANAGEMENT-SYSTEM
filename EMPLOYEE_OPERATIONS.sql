@@ -52,8 +52,8 @@ JOIN
     payroll P ON E.EmployeeID = P.employee_id
 GROUP BY 
 	 E.EmployeeID, E.FirstName, E.LastName, E.Department, P.net_salary;
-    
-    
+     
+select * from employeesinfo;    
 
 
 
